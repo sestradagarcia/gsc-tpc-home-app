@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "build-ts",
+    "target": "ES2019",
+    "lib": ["ES2019", "DOM"],
+    "moduleResolution": "node",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true
+  },
+  "include": ["src/**/*.ts", "src/index.js"]
+}
+
+// {
+//   "compilerOptions": {
+//     "lib": ["es7", "dom", "es2017"],
+//     "target": "es6",
+//     "declaration": true,
+//     "moduleResolution": "node",
+//     "outDir": "./lib",
+//     "types": [
+//       "jest",
+//       "node"
+//     ],
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "module": "esnext",
+//     "resolveJsonModule": true
+//   },
+//   "include": ["src/**/*"],
+//   "exclude": ["node_modules"]
+// }
